@@ -1,0 +1,21 @@
+{
+    "model": "BiLSTM + Attention",
+    "accuracy": 0.9554947885705227,
+    "macro_f1": 0.9327372437078179,
+    "weighted_f1": 0.9565644829353847,
+    "inference_time_sec": {
+        "100_samples": 0.09813475608825684,
+        "1000_samples": 0.20133113861083984,
+        "full_test": 2.6231119632720947
+    },
+    "num_test_samples": 25233,
+    "num_classes": 6,
+    "class_labels": [
+        "sadness",
+        "joy",
+        "love",
+        "anger",
+        "fear",
+        "surprise"
+    ]
+}
