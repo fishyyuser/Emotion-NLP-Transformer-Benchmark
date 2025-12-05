@@ -136,10 +136,10 @@ celerybeat.pid
 
 # Environments
 models/bilstm_attention_emotional_model/*
-!models/bilstm_attention_emotional_model/how to download.md
+!models/bilstm_attention_emotional_model/README.md
 !models/bilstm_attention_emotional_model/tokenizer.pkl
 models/bert_emotion_model/*
-!models/bert_emotion_model/how to download.md
+!models/bert_emotion_model/README.md
 .env
 .envrc
 .venv
