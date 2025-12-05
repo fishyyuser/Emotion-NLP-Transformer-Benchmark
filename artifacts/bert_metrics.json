@@ -1,0 +1,19 @@
+{
+    "model": "distilbert-base-uncased",
+    "accuracy": 0.9682604169311632,
+    "macro_f1": 0.9488063521788557,
+    "weighted_f1": 0.9681195218086525,
+    "inference_time_sec": {
+        "full_test": 82.18600511550903
+    },
+    "num_test_samples": 39383,
+    "num_classes": 6,
+    "class_labels": [
+        "sadness",
+        "joy",
+        "love",
+        "anger",
+        "fear",
+        "surprise"
+    ]
+}
