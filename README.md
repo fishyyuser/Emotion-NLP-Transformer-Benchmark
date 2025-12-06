@@ -173,6 +173,3 @@ This project represents a complete NLP engineering cycle:
 
 Dataset → Training → Evaluation → Benchmarking →
 Deployment → Real-Time Comparison
-
-It is designed to reflect real-world ML Engineering
-decisions rather than only leaderboard chasing.
