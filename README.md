@@ -1,6 +1,6 @@
 EMOTION NLP TRANSFORMER BENCHMARK — PROJECT README
 (BiLSTM + Attention vs BERT)
-===========================================================
+=======================================================
 
 This repository contains a full end-to-end benchmark and
 comparison of two fundamentally different NLP approaches
@@ -20,8 +20,6 @@ but to study:
 - Error Patterns across Emotion Classes
 - Real-World Deployment Trade-offs
 
----
-
 ## PROBLEM STATEMENT
 
 Task:
@@ -39,8 +37,6 @@ Emotion Classes:
 Each sample represents a real-world short text
 (similar to social media, chat messages, etc).
 
----
-
 ## MODELS USED
 
 1. BiLSTM + Attention (TensorFlow)
@@ -56,8 +52,6 @@ Each sample represents a real-world short text
    - High Semantic Understanding
    - Computationally Heavy
 
----
-
 ## EVALUATION METRICS USED
 
 - Accuracy
@@ -65,8 +59,6 @@ Each sample represents a real-world short text
 - Weighted F1 (Overall Performance)
 - Confusion Matrix
 - Inference Time on Full Test Set
-
----
 
 ## FINAL BENCHMARK RESULTS (SUMMARY)
 
@@ -84,8 +76,6 @@ BERT / DistilBERT:
 - Weighted F1 ≈ 96.8%
 - Inference Time ≈ 82 seconds on full test set
 
----
-
 ## KEY ENGINEERING CONCLUSION
 
 - BERT provides slightly better semantic understanding
@@ -102,8 +92,6 @@ BERT / DistilBERT:
 This project demonstrates that:
 The best model is decided by deployment constraints,
 not just accuracy numbers.
-
----
 
 ## PROJECT STRUCTURE
 
@@ -137,8 +125,6 @@ EMOTION-NLP-TRANSFORMER-BENCHMARK/
 |-- README.md
 ```
 
----
-
 ## STREAMLIT FRONTEND
 
 The Streamlit app provides:
@@ -154,8 +140,6 @@ Run locally using:
 streamlit run streamlit_app.py
 ```
 
----
-
 ## WHAT THIS DEMONSTRATES
 
 This repository demonstrates:
@@ -166,8 +150,6 @@ This repository demonstrates:
 - Deployment-Oriented Thinking
 - Latency vs Accuracy Trade-off Analysis
 - Error Pattern Analysis using Confusion Matrices
-
----
 
 ## FINAL NOTE
 
