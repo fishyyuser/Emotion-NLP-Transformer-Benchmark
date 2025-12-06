@@ -150,7 +150,9 @@ The Streamlit app provides:
 
 Run locally using:
 
+```bash
 streamlit run streamlit_app.py
+```
 
 ---
 
