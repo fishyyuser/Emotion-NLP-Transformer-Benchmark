@@ -17,7 +17,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 # ============================================================
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_DIR = BASE_DIR / "models"
+MODEL_DIR = BASE_DIR / "artifacts/models"
 
 BILSTM_MODEL_PATH = MODEL_DIR / "bilstm_attention_emotional_model/bilstm_attention_emotions.keras"
 TOKENIZER_PATH = MODEL_DIR / "bilstm_attention_emotional_model/tokenizer.pkl"

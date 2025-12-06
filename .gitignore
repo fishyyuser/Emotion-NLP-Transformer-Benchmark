@@ -135,11 +135,11 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-models/bilstm_attention_emotional_model/*
-!models/bilstm_attention_emotional_model/README.md
-!models/bilstm_attention_emotional_model/tokenizer.pkl
-models/bert_emotion_model/*
-!models/bert_emotion_model/README.md
+artifacts/models/bilstm_attention_emotional_model/*
+!artifacts/models/bilstm_attention_emotional_model/README.md
+!artifacts/models/bilstm_attention_emotional_model/tokenizer.pkl
+artifacts/models/bert_emotion_model/*
+!artifacts/models/bert_emotion_model/README.md
 .env
 .envrc
 .venv
