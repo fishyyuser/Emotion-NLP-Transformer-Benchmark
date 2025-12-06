@@ -52,6 +52,26 @@ Each sample represents a real-world short text
    - High Semantic Understanding
    - Computationally Heavy
 
+## MODEL SOURCE — BiLSTM + ATTENTION (ORIGINAL REPOSITORY)
+
+The BiLSTM + Attention model used in this benchmark was
+originally trained and developed in my previous repository:
+
+https://github.com/fishyyuser/Text-Emotion-Predictor
+
+In THIS repository:
+
+- The pretrained **bilstm_attention_emotions.keras** model is directly reused
+- Only baseline evaluation is performed
+- The model is then benchmarked against BERT
+- The same trained weights are used for the Streamlit frontend
+
+This ensures that:
+
+- BiLSTM performance represents a true frozen baseline
+- Comparisons against BERT are fair and unbiased
+- No additional tuning is applied to the BiLSTM model
+
 ## EVALUATION METRICS USED
 
 - Accuracy
