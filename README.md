@@ -160,17 +160,6 @@ Run locally using:
 streamlit run streamlit_app.py
 ```
 
-## WHAT THIS DEMONSTRATES
-
-This repository demonstrates:
-
-- Classical NLP Deep Learning
-- Transformer Fine-Tuning
-- Model Benchmarking Methodology
-- Deployment-Oriented Thinking
-- Latency vs Accuracy Trade-off Analysis
-- Error Pattern Analysis using Confusion Matrices
-
 ## FINAL NOTE
 
 This project represents a complete NLP engineering cycle:
